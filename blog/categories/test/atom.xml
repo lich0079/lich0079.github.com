@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Winter is coming]]></title>
-  <link href="http://lich0079.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: test | Winter is coming]]></title>
+  <link href="http://lich0079.github.com/blog/categories/test/atom.xml" rel="self"/>
   <link href="http://lich0079.github.com/"/>
   <updated>2012-10-26T23:02:36+08:00</updated>
   <id>http://lich0079.github.com/</id>
