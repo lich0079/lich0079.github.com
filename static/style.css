@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'Arvo';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Arvo'), url('http://themes.googleusercontent.com/font?kit=BM-nqL-L5PgjKPDNaleWB_esZW2xOQ-xsNqO47m55DA') format('woff');
+}
+@font-face {
+  font-family: 'Arvo';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Arvo Bold'), local('Arvo-Bold'), url('http://themes.googleusercontent.com/font?kit=_OKjjqM9ed2qvTR07QdjWwLUuEpTyoUstqEm5AMlJo4') format('woff');
+}
+
+@font-face {
+  font-family: 'Goudy Bookletter 1911';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Goudy Bookletter 1911'), local('GoudyBookletter1911'), url('http://themes.googleusercontent.com/font?kit=l5lwlGTN3pEY5Bf-rQEuIM1yrN2lJveIMQB3sFVC2WOglnMp3_3A8V8Ai8YosRtX') format('woff');
+}
+
+
+* {margin:0; padding:0;}
+body { color:#343534; font-size:1.2em; line-height:2;}
+body, #side ol a {font-family:'Goudy Bookletter 1911', georgia, serif;}
+a img {border:none;}
+a {color:#343534; text-decoration:underline;}
+a:hover {color:#c23c19; text-decoration:none;}
+h1, h2, h3, #side strong, #side ol li {font-family:Arvo, futura, helvetica, arial, sans-serif;}
+ul {list-style:none;}
+#doc:after, .applist li:after {content:""; display:block; clear:both;}
+#doc {width:980px; padding:30px 10px;}
+#content {float:left; width:580px; padding:0 20px;}
+#content .hd {line-height:1.4; padding:0 20px 20px;}
+.applist li {position:relative; padding:20px 10px;}
+.applist li:nth-child(2n+1){background:#f7f7f7; border-bottom:1px solid #ececec;}
+.applist li h2 {color:#343534;}
+
+.applist li:hover h2 {color:#c23c19;}
+.applist a {display:block; float:left; width:80px; text-align:center;}
+.applist h2, .applist p {margin-left:100px;}
+.applist h2 {margin-top:-.5em; font-size:1em;}
+.applist .buy, .applist .comingsoon {position:absolute; display:block; width:106px; right:16px; top:16px;}
+.bd .content {padding-top:20px; padding-left:10px;}
+.bd ul {list-style:square; margin-left:1em;}
+.bd .applist {list-style:none;}
+.bd p {margin-bottom:1em;}
+.bd .content h2 {margin-top:1em; font-size:1.2em;}
+.masterhead {position:relative;}
+.masterhead a {display:block;}
+.masterhead .iconimg {position:absolute; left:0; bottom:0;}
+#side {margin-left:640px; padding:10px;}
+#side strong {display:block; border-bottom:1px solid #333; font-size:1.4em; line-height:1;}
+#side h2 {margin-top:40px; font-size:1em; color:#c23c19; line-height:1;}
+#side ol {list-style:inside upper-roman;}
+#side ol li {padding-top:20px; color:#999; border-bottom:1px dotted #999;}
+#side li.current {position:relative;}
+#side li.current b {position:absolute; display:block; width:22px; height:44px; background:url(/i/shadow-arrow.png) 0 50% no-repeat; left:-42px; top:16px;}
+#side ol li:first-child {padding-top:12px;}
+#side a {font-weight:normal; text-decoration:none;}
+#side ol img {margin-left:6px; vertical-align:baseline;}
+#side .ft {margin-top:4em; font-size:.8em;}
+
+
